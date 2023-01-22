@@ -33,7 +33,7 @@ body {
 }
 
 .center {
-  width: 20rem;
+  width: 22rem;
   height: 25rem;
   background-color: var(--white);
   border-radius: 8px;
@@ -54,10 +54,17 @@ body {
   gap: 1rem;
 }
 
+.user-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .img-box {
   overflow: hidden;
   position: relative;
   top: -30%;
+  height: fit-content;
 }
 
 .img-box img {
@@ -65,12 +72,13 @@ body {
   border: 5px solid var(--white);
 }
 
-
-.user-info {
+.info-box {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
 }
+
 
 .stats {
   display: flex;
